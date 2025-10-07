@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="EFPView.Pages.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EFPView.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+    muxc:BackdropMaterial.ApplyToRootOrPageBackground="True">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <TextBlock Text="关于" Margin="12" FontSize="18"/>
+        </Grid>
+        <Grid Grid.Row="1">
+            <TextBlock Text="UI基于WInUI2.8 Fluent设计" Margin="12,0,0,0" FontSize="12"/>
+        </Grid>
+    </Grid>
+</Page>
+

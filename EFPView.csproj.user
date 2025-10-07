@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>C:\Users\Administrator\Downloads\exe.png</Source>
+    <SmallTileSource>C:\Users\Administrator\Downloads\exe.png</SmallTileSource>
+    <MediumTileSource>C:\Users\Administrator\Downloads\exe.png</MediumTileSource>
+    <WideTileSource>C:\Users\Administrator\Downloads\exe.png</WideTileSource>
+    <LargeTileSource>C:\Users\Administrator\Downloads\exe.png</LargeTileSource>
+    <AppIconSource>C:\Users\Administrator\Downloads\exe.png</AppIconSource>
+    <SplashScreenSource>C:\Users\Administrator\Downloads\exe.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\Administrator\Downloads\exe.png</PackageLogoSource>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Update="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+</Project>
