@@ -7,24 +7,20 @@
       "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\pages\\aboutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:pages\\aboutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\pages\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:pages\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\pages\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:pages\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}",
-      "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}"
+      "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,8 +31,95 @@
       "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\XamlCompiler\\Microsoft.Windows.UI.Xaml.Common.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\pages\\aboutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:pages\\aboutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\themehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:themehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\pages\\aboutpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:pages\\aboutpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\assets\\smalltile.scale-400.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:assets\\smalltile.scale-400.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\assets\\largetile.scale-400.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:assets\\largetile.scale-400.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\assets\\badgelogo.scale-400.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:assets\\badgelogo.scale-400.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\assets\\badgelogo.scale-100.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:assets\\badgelogo.scale-100.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\assets\\splashscreen.scale-200.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:assets\\splashscreen.scale-200.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\assets\\smalltile.scale-125.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:assets\\smalltile.scale-125.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\assets\\smalltile.scale-100.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:assets\\smalltile.scale-100.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\assets\\lockscreenlogo.scale-200.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:assets\\lockscreenlogo.scale-200.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\assets\\largetile.scale-200.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:assets\\largetile.scale-200.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\assets\\largetile.scale-125.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:assets\\largetile.scale-125.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\assets\\badgelogo.scale-125.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:assets\\badgelogo.scale-125.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\assets\\wide310x150logo.scale-150.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:assets\\wide310x150logo.scale-150.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\assets\\largetile.scale-100.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:assets\\largetile.scale-100.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\efpview.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:efpview.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}",
+      "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|c:\\users\\administrator\\source\\repos\\efpview\\assets\\smalltile.scale-150.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{B8A1F60E-D649-47ED-AEFA-41A4E42989C2}|EFPView.csproj|solutionrelative:assets\\smalltile.scale-150.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\source\\repos\\EFPView\\obj\\x64\\Debug\\net9.0-windows10.0.26100.0\\win-x64\\Pages\\SettingsPage.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\x64\\Debug\\net9.0-windows10.0.26100.0\\win-x64\\Pages\\SettingsPage.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,68 +132,56 @@
           "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-07T09:26:57.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "SettingsPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Pages\\SettingsPage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\SettingsPage.xaml.cs",
               "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Pages\\SettingsPage.xaml.cs",
               "RelativeToolTip": "Pages\\SettingsPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswGUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T09:32:13.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T09:32:13.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Settings.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Settings.cs",
+              "RelativeDocumentMoniker": "Settings.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Settings.cs",
+              "RelativeToolTip": "Settings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T05:15:01.619Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AboutPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Pages\\AboutPage.xaml",
-              "RelativeDocumentMoniker": "Pages\\AboutPage.xaml",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Pages\\AboutPage.xaml",
-              "RelativeToolTip": "Pages\\AboutPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-07T09:30:12.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "SettingsPage.xaml",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Pages\\SettingsPage.xaml",
               "RelativeDocumentMoniker": "Pages\\SettingsPage.xaml",
               "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Pages\\SettingsPage.xaml",
               "RelativeToolTip": "Pages\\SettingsPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-07T09:29:56.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomePage.xaml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Pages\\HomePage.xaml",
-              "RelativeDocumentMoniker": "Pages\\HomePage.xaml",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Pages\\HomePage.xaml",
-              "RelativeToolTip": "Pages\\HomePage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-07T09:29:37.011Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\MainPage.xaml.cs",
-              "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T09:28:56.059Z",
               "EditorCaption": ""
             },
             {
@@ -121,7 +192,7 @@
               "RelativeDocumentMoniker": "MainPage.xaml",
               "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\MainPage.xaml*",
               "RelativeToolTip": "MainPage.xaml*",
-              "ViewState": "AgIAABMAAAAAAAAAAAAuwCcAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAuwDkAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-07T09:28:22.811Z",
               "EditorCaption": ""
@@ -129,40 +200,287 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAEUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T09:28:56.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Pages\\HomePage.xaml",
+              "RelativeDocumentMoniker": "Pages\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Pages\\HomePage.xaml",
+              "RelativeToolTip": "Pages\\HomePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-07T09:29:37.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Microsoft.Windows.UI.Xaml.Common.targets",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\XamlCompiler\\Microsoft.Windows.UI.Xaml.Common.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\XamlCompiler\\Microsoft.Windows.UI.Xaml.Common.targets",
+              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\XamlCompiler\\Microsoft.Windows.UI.Xaml.Common.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\XamlCompiler\\Microsoft.Windows.UI.Xaml.Common.targets",
+              "ViewState": "AgIAAFEBAAAAAAAAAAASwGEBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-10-09T14:28:47.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AboutPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Pages\\AboutPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\AboutPage.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Pages\\AboutPage.xaml",
+              "RelativeToolTip": "Pages\\AboutPage.xaml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-07T09:30:12.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAcwA4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T09:27:27.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ThemeHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\ThemeHelper.cs",
+              "RelativeDocumentMoniker": "ThemeHelper.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\ThemeHelper.cs",
+              "RelativeToolTip": "ThemeHelper.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAuwHYAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T05:07:47.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Pages\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Pages\\HomePage.xaml.cs",
+              "RelativeToolTip": "Pages\\HomePage.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T04:32:56.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AboutPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Pages\\AboutPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\AboutPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Pages\\AboutPage.xaml.cs",
+              "RelativeToolTip": "Pages\\AboutPage.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T11:50:35.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SmallTile.scale-400.png",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\SmallTile.scale-400.png",
+              "RelativeDocumentMoniker": "Assets\\SmallTile.scale-400.png",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\SmallTile.scale-400.png",
+              "RelativeToolTip": "Assets\\SmallTile.scale-400.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-10-09T10:53:02.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LargeTile.scale-400.png",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\LargeTile.scale-400.png",
+              "RelativeDocumentMoniker": "Assets\\LargeTile.scale-400.png",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\LargeTile.scale-400.png",
+              "RelativeToolTip": "Assets\\LargeTile.scale-400.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-10-09T10:53:15.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SmallTile.scale-125.png",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\SmallTile.scale-125.png",
+              "RelativeDocumentMoniker": "Assets\\SmallTile.scale-125.png",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\SmallTile.scale-125.png",
+              "RelativeToolTip": "Assets\\SmallTile.scale-125.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-10-09T10:53:00.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SplashScreen.scale-200.png",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\SplashScreen.scale-200.png",
+              "RelativeDocumentMoniker": "Assets\\SplashScreen.scale-200.png",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\SplashScreen.scale-200.png",
+              "RelativeToolTip": "Assets\\SplashScreen.scale-200.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-10-09T10:53:08.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BadgeLogo.scale-100.png",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\BadgeLogo.scale-100.png",
+              "RelativeDocumentMoniker": "Assets\\BadgeLogo.scale-100.png",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\BadgeLogo.scale-100.png",
+              "RelativeToolTip": "Assets\\BadgeLogo.scale-100.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-10-09T10:53:12.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BadgeLogo.scale-400.png",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\BadgeLogo.scale-400.png",
+              "RelativeDocumentMoniker": "Assets\\BadgeLogo.scale-400.png",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\BadgeLogo.scale-400.png",
+              "RelativeToolTip": "Assets\\BadgeLogo.scale-400.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-10-09T10:53:13.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LargeTile.scale-200.png",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\LargeTile.scale-200.png",
+              "RelativeDocumentMoniker": "Assets\\LargeTile.scale-200.png",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\LargeTile.scale-200.png",
+              "RelativeToolTip": "Assets\\LargeTile.scale-200.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-10-09T10:52:56.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LargeTile.scale-125.png",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\LargeTile.scale-125.png",
+              "RelativeDocumentMoniker": "Assets\\LargeTile.scale-125.png",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\LargeTile.scale-125.png",
+              "RelativeToolTip": "Assets\\LargeTile.scale-125.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-10-09T10:52:54.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BadgeLogo.scale-125.png",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\BadgeLogo.scale-125.png",
+              "RelativeDocumentMoniker": "Assets\\BadgeLogo.scale-125.png",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\BadgeLogo.scale-125.png",
+              "RelativeToolTip": "Assets\\BadgeLogo.scale-125.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-10-09T10:52:52.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Wide310x150Logo.scale-150.png",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\Wide310x150Logo.scale-150.png",
+              "RelativeDocumentMoniker": "Assets\\Wide310x150Logo.scale-150.png",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\Wide310x150Logo.scale-150.png",
+              "RelativeToolTip": "Assets\\Wide310x150Logo.scale-150.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-10-09T10:52:50.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SmallTile.scale-100.png",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\SmallTile.scale-100.png",
+              "RelativeDocumentMoniker": "Assets\\SmallTile.scale-100.png",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\SmallTile.scale-100.png",
+              "RelativeToolTip": "Assets\\SmallTile.scale-100.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-10-09T10:52:47.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LargeTile.scale-100.png",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\LargeTile.scale-100.png",
+              "RelativeDocumentMoniker": "Assets\\LargeTile.scale-100.png",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\LargeTile.scale-100.png",
+              "RelativeToolTip": "Assets\\LargeTile.scale-100.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-10-09T10:52:44.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LockScreenLogo.scale-200.png",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\LockScreenLogo.scale-200.png",
+              "RelativeDocumentMoniker": "Assets\\LockScreenLogo.scale-200.png",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\LockScreenLogo.scale-200.png",
+              "RelativeToolTip": "Assets\\LockScreenLogo.scale-200.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-10-09T04:55:45.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EFPView.csproj",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\EFPView.csproj",
+              "RelativeDocumentMoniker": "EFPView.csproj",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\EFPView.csproj",
+              "RelativeToolTip": "EFPView.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-09T05:14:44.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "Package.appxmanifest",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Package.appxmanifest",
               "RelativeDocumentMoniker": "Package.appxmanifest",
               "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Package.appxmanifest",
               "RelativeToolTip": "Package.appxmanifest",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001793|",
-              "WhenOpened": "2025-10-07T09:34:47.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T04:58:35.713Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 28,
+              "Title": "SmallTile.scale-150.png",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\SmallTile.scale-150.png",
+              "RelativeDocumentMoniker": "Assets\\SmallTile.scale-150.png",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\Assets\\SmallTile.scale-150.png",
+              "RelativeToolTip": "Assets\\SmallTile.scale-150.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-10-09T04:55:47.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SettingsPage.g.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\obj\\x64\\Debug\\net9.0-windows10.0.26100.0\\win-x64\\Pages\\SettingsPage.g.cs",
+              "RelativeDocumentMoniker": "obj\\x64\\Debug\\net9.0-windows10.0.26100.0\\win-x64\\Pages\\SettingsPage.g.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\obj\\x64\\Debug\\net9.0-windows10.0.26100.0\\win-x64\\Pages\\SettingsPage.g.cs",
+              "RelativeToolTip": "obj\\x64\\Debug\\net9.0-windows10.0.26100.0\\win-x64\\Pages\\SettingsPage.g.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T09:27:27.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\EFPView\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\EFPView\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-07T09:26:57.751Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T04:47:16.416Z"
             }
           ]
         }

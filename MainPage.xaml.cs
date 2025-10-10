@@ -39,6 +39,35 @@ namespace EFPView
         {
             if (ContentFrame.Content == null) ContentFrame.Navigate(typeof(HomePage));
             UpdateBackUI();
+
+            var theme = Settings.Get("Theme", 0);
+            var nava = Settings.Get("NavViewMode", 0);
+
+            if (theme == 0)
+            {
+                ThemeHelper.Apply(AppTheme.System);
+            }
+            else if (theme == 1)
+            {
+                ThemeHelper.Apply(AppTheme.Dark);
+            }
+            else if (theme == 2)
+            {
+                ThemeHelper.Apply(AppTheme.Light);
+            }
+
+            if (nava == 0)
+            {
+                App.MainPage.NavView.PaneDisplayMode = Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Auto;
+            }
+            else if (nava == 1)
+            {
+                App.MainPage.NavView.PaneDisplayMode = Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Left;
+            }
+            else if (nava == 2)
+            {
+                App.MainPage.NavView.PaneDisplayMode = Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Top;
+            }
         }
 
         private void UpdateTitleBarLayout()

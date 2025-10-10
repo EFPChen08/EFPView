@@ -30,15 +30,34 @@
             Grid.Row="0"
             Height="48"
             Background="Transparent"
-            Visibility="Collapsed"/>
+            Visibility="Collapsed">
+            
+            <StackPanel Orientation="Horizontal"
+                    VerticalAlignment="Center"
+                    Margin="12,-8,0,0"
+                    IsHitTestVisible="False">
+                <Image Source="/Assets/Square44x44Logo.png"
+                   Width="20" Height="20"
+                   Stretch="Uniform"
+                   Opacity="0.9"/>
+                <TextBlock Text="EFP UWP WinUI 2.8开发框架"
+                       Margin="8,0,0,0"
+                       VerticalAlignment="Center"
+                       FontSize="14"
+                       Opacity="0.9"/>
+            </StackPanel>
+            
+        </Border>
 
         <Grid Grid.Row="1">
             <muxc:NavigationView x:ConnectionId='4' x:Name="NavView"
+                             x:FieldModifier="public"
                              IsTitleBarAutoPaddingEnabled="False"
                              IsBackButtonVisible="Visible"
                                                                   
-                             PaneDisplayMode="Top"
+                             PaneDisplayMode="Auto"
                                                               >
+                <!-- OpenPaneLength为NavView项目宽度 -->
                 <Frame x:ConnectionId='9' x:Name="ContentFrame"/>
                 <muxc:NavigationView.MenuItems>
                     <muxc:NavigationViewItem Icon="Home" Content="主页" Tag="home"/>
@@ -68,7 +87,7 @@
                    Width="20" Height="20"
                    Stretch="Uniform"
                    Opacity="0.9"/>
-                        <TextBlock Text="我的应用"
+                        <TextBlock Text="EFP UWP WinUI 2.8开发框架"
                        Margin="8,0,0,0"
                        VerticalAlignment="Center"
                        FontSize="14"

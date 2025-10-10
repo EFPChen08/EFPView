@@ -8,18 +8,58 @@
     mc:Ignorable="d"
     xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
     muxc:BackdropMaterial.ApplyToRootOrPageBackground="True">
-
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-        <Grid Grid.Row="0">
-            <TextBlock Text="设置" Margin="12" FontSize="18"/>
+    
+    <ScrollViewer
+        x:Name="PageScroll"
+        VerticalScrollBarVisibility="Auto"
+        VerticalScrollMode="Enabled"
+        HorizontalScrollBarVisibility="Disabled"
+        ZoomMode="Disabled"
+        Padding="0">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <TextBlock Text="设置" Margin="24" FontSize="18"/>
+            </Grid>
+            <Grid Grid.Row="1">
+                <TextBlock Text="UI基于WInUI2.8 Fluent设计" Margin="24,-12,0,0" FontSize="12"/>
+            </Grid>
+            <Grid Grid.Row="2">
+                <muxc:Expander Header="布局相关" Margin="24" HorizontalAlignment="Stretch">
+                    <muxc:RadioButtons x:Name="BuJu" x:FieldModifier="public" Header="布局设置" Margin="24">
+                        <RadioButton Content="自动" Checked="Auto_Checked"/>
+                        <RadioButton Content="左" Checked="Left_Checked"/>
+                        <RadioButton Content="上" Checked="Top_Checked"/>
+                    </muxc:RadioButtons>
+                </muxc:Expander>
+            </Grid>
+            <Grid Grid.Row="3">
+                <muxc:Expander Header="主题相关" Margin="24,-12,24,24" HorizontalAlignment="Stretch">
+                    <ComboBox x:Name="ThemeComboBox" x:FieldModifier="public" SelectionChanged="ThemeComboBox_SelectionChanged" PlaceholderText="选择主题" Width="150" Margin="24">
+                        <x:String>自动</x:String>
+                        <x:String>浅色</x:String>
+                        <x:String>深色</x:String>
+                    </ComboBox>
+                </muxc:Expander>
+            </Grid>
+            <Grid Grid.Row="4">
+                <muxc:Expander Header="音效设置" Margin="24,-12,24,24" IsExpanded="False" ExpandDirection="Down" IsEnabled="True" HorizontalAlignment="Stretch">
+                    <Grid Height="56" HorizontalAlignment="Stretch">
+                        <ToggleSwitch
+                                x:Name="AudioToggle"
+                                Grid.Column="2"
+                                VerticalAlignment="Center"
+                                Toggled="AudioToggle_Toggled"/>
+                    </Grid>
+                </muxc:Expander>
+            </Grid>
         </Grid>
-        <Grid Grid.Row="1">
-            <TextBlock Text="UI基于WInUI2.8 Fluent设计" Margin="12,0,0,0" FontSize="12"/>
-        </Grid>
-    </Grid>
+    </ScrollViewer>
 </Page>

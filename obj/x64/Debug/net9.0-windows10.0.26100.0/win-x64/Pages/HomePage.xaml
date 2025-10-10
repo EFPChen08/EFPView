@@ -9,18 +9,36 @@
     xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
     muxc:BackdropMaterial.ApplyToRootOrPageBackground="True">
 
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-        <Grid Grid.Row="0">
-            <TextBlock Text="主页" Margin="12" FontSize="18"/>
+    <ScrollViewer x:ConnectionId='2'
+        x:Name="PageScroll"
+        VerticalScrollBarVisibility="Auto"
+        VerticalScrollMode="Enabled"
+        HorizontalScrollBarVisibility="Disabled"
+        ZoomMode="Disabled"
+        Padding="0">
+        <Grid
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center"
+        >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Image Source="/Assets/winuiview.png"
+                   Width="120" Height="120"
+                   Stretch="Uniform"
+                   Opacity="0.9"/>
+            </Grid>
+            <Grid Grid.Row="1">
+                <TextBlock Text="主页 -- WinUI2.8 UWP" TextAlignment="Center" Margin="24" FontSize="24"/>
+            </Grid>
+            <Grid Grid.Row="2">
+                <TextBlock Text="UI基于WInUI2.8 Fluent设计" TextAlignment="Center" Margin="24,0,0,0" FontSize="12"/>
+            </Grid>
         </Grid>
-        <Grid Grid.Row="1">
-            <TextBlock Text="UI基于WInUI2.8 Fluent设计" Margin="12,0,0,0" FontSize="12"/>
-        </Grid>
-    </Grid>
+    </ScrollViewer>
 </Page>
 

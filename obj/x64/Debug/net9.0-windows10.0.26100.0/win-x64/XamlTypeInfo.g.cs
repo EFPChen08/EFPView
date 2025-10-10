@@ -223,7 +223,7 @@ namespace EFPView.EFPView_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[45];
+            _typeNameTable = new string[49];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Windows.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -262,15 +262,19 @@ namespace EFPView.EFPView_XamlTypeInfo
             _typeNameTable[35] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[36] = "EFPView.Pages.AboutPage";
             _typeNameTable[37] = "EFPView.Pages.HomePage";
-            _typeNameTable[38] = "EFPView.Pages.SettingsPage";
-            _typeNameTable[39] = "Microsoft.UI.Xaml.Controls.IconSource";
-            _typeNameTable[40] = "Windows.UI.Xaml.Media.Brush";
-            _typeNameTable[41] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[42] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
-            _typeNameTable[43] = "Int32";
-            _typeNameTable[44] = "Windows.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[38] = "Microsoft.UI.Xaml.Controls.Expander";
+            _typeNameTable[39] = "Microsoft.UI.Xaml.Controls.ExpandDirection";
+            _typeNameTable[40] = "Microsoft.UI.Xaml.Controls.ExpanderTemplateSettings";
+            _typeNameTable[41] = "Microsoft.UI.Xaml.Controls.RadioButtons";
+            _typeNameTable[42] = "Int32";
+            _typeNameTable[43] = "EFPView.Pages.SettingsPage";
+            _typeNameTable[44] = "Microsoft.UI.Xaml.Controls.IconSource";
+            _typeNameTable[45] = "Windows.UI.Xaml.Media.Brush";
+            _typeNameTable[46] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[47] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+            _typeNameTable[48] = "Windows.UI.Xaml.Controls.TreeViewNode";
 
-            _typeTable = new global::System.Type[45];
+            _typeTable = new global::System.Type[49];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -309,13 +313,17 @@ namespace EFPView.EFPView_XamlTypeInfo
             _typeTable[35] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[36] = typeof(global::EFPView.Pages.AboutPage);
             _typeTable[37] = typeof(global::EFPView.Pages.HomePage);
-            _typeTable[38] = typeof(global::EFPView.Pages.SettingsPage);
-            _typeTable[39] = typeof(global::Microsoft.UI.Xaml.Controls.IconSource);
-            _typeTable[40] = typeof(global::Windows.UI.Xaml.Media.Brush);
-            _typeTable[41] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[42] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
-            _typeTable[43] = typeof(global::System.Int32);
-            _typeTable[44] = typeof(global::Windows.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[38] = typeof(global::Microsoft.UI.Xaml.Controls.Expander);
+            _typeTable[39] = typeof(global::Microsoft.UI.Xaml.Controls.ExpandDirection);
+            _typeTable[40] = typeof(global::Microsoft.UI.Xaml.Controls.ExpanderTemplateSettings);
+            _typeTable[41] = typeof(global::Microsoft.UI.Xaml.Controls.RadioButtons);
+            _typeTable[42] = typeof(global::System.Int32);
+            _typeTable[43] = typeof(global::EFPView.Pages.SettingsPage);
+            _typeTable[44] = typeof(global::Microsoft.UI.Xaml.Controls.IconSource);
+            _typeTable[45] = typeof(global::Windows.UI.Xaml.Media.Brush);
+            _typeTable[46] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[47] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+            _typeTable[48] = typeof(global::Windows.UI.Xaml.Controls.TreeViewNode);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -358,8 +366,10 @@ namespace EFPView.EFPView_XamlTypeInfo
         private object Activate_33_MainPage() { return new global::EFPView.MainPage(); }
         private object Activate_36_AboutPage() { return new global::EFPView.Pages.AboutPage(); }
         private object Activate_37_HomePage() { return new global::EFPView.Pages.HomePage(); }
-        private object Activate_38_SettingsPage() { return new global::EFPView.Pages.SettingsPage(); }
-        private object Activate_41_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private object Activate_38_Expander() { return new global::Microsoft.UI.Xaml.Controls.Expander(); }
+        private object Activate_41_RadioButtons() { return new global::Microsoft.UI.Xaml.Controls.RadioButtons(); }
+        private object Activate_43_SettingsPage() { return new global::EFPView.Pages.SettingsPage(); }
+        private object Activate_46_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
 
 
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
@@ -375,7 +385,7 @@ namespace EFPView.EFPView_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_42_IList(object instance, object item)
+        private void VectorAdd_47_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -652,27 +662,71 @@ namespace EFPView.EFPView_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 38:   //  EFPView.Pages.SettingsPage
+            case 38:   //  Microsoft.UI.Xaml.Controls.Expander
+                userType = new global::EFPView.EFPView_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.ContentControl"));
+                userType.Activator = Activate_38_Expander;
+                userType.AddMemberName("Header");
+                userType.AddMemberName("IsExpanded");
+                userType.AddMemberName("ExpandDirection");
+                userType.AddMemberName("HeaderTemplate");
+                userType.AddMemberName("HeaderTemplateSelector");
+                userType.AddMemberName("TemplateSettings");
+                xamlType = userType;
+                break;
+
+            case 39:   //  Microsoft.UI.Xaml.Controls.ExpandDirection
+                userType = new global::EFPView.EFPView_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Down", global::Microsoft.UI.Xaml.Controls.ExpandDirection.Down);
+                userType.AddEnumValue("Up", global::Microsoft.UI.Xaml.Controls.ExpandDirection.Up);
+                xamlType = userType;
+                break;
+
+            case 40:   //  Microsoft.UI.Xaml.Controls.ExpanderTemplateSettings
+                userType = new global::EFPView.EFPView_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 41:   //  Microsoft.UI.Xaml.Controls.RadioButtons
+                userType = new global::EFPView.EFPView_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
+                userType.Activator = Activate_41_RadioButtons;
+                userType.SetContentPropertyName("Microsoft.UI.Xaml.Controls.RadioButtons.Items");
+                userType.AddMemberName("Items");
+                userType.AddMemberName("Header");
+                userType.AddMemberName("HeaderTemplate");
+                userType.AddMemberName("ItemTemplate");
+                userType.AddMemberName("ItemsSource");
+                userType.AddMemberName("MaxColumns");
+                userType.AddMemberName("SelectedIndex");
+                userType.AddMemberName("SelectedItem");
+                xamlType = userType;
+                break;
+
+            case 42:   //  Int32
+                xamlType = new global::EFPView.EFPView_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 43:   //  EFPView.Pages.SettingsPage
                 userType = new global::EFPView.EFPView_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_38_SettingsPage;
+                userType.Activator = Activate_43_SettingsPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 39:   //  Microsoft.UI.Xaml.Controls.IconSource
+            case 44:   //  Microsoft.UI.Xaml.Controls.IconSource
                 userType = new global::EFPView.EFPView_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.AddMemberName("Foreground");
                 userType.SetIsBindable();
                 xamlType = userType;
                 break;
 
-            case 40:   //  Windows.UI.Xaml.Media.Brush
+            case 45:   //  Windows.UI.Xaml.Media.Brush
                 xamlType = new global::EFPView.EFPView_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 41:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+            case 46:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
                 userType = new global::EFPView.EFPView_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_41_TreeViewNode;
+                userType.Activator = Activate_46_TreeViewNode;
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Depth");
@@ -684,18 +738,14 @@ namespace EFPView.EFPView_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 42:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+            case 47:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
                 userType = new global::EFPView.EFPView_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.CollectionAdd = VectorAdd_42_IList;
+                userType.CollectionAdd = VectorAdd_47_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 43:   //  Int32
-                xamlType = new global::EFPView.EFPView_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 44:   //  Windows.UI.Xaml.Controls.TreeViewNode
+            case 48:   //  Windows.UI.Xaml.Controls.TreeViewNode
                 xamlType = new global::EFPView.EFPView_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
@@ -1230,62 +1280,192 @@ namespace EFPView.EFPView_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase)instance;
             that.IsSelected = (global::System.Boolean)Value;
         }
-        private object get_51_IconSource_Foreground(object instance)
+        private object get_51_Expander_Header(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            return that.Header;
+        }
+        private void set_51_Expander_Header(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            that.Header = (global::System.Object)Value;
+        }
+        private object get_52_Expander_IsExpanded(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            return that.IsExpanded;
+        }
+        private void set_52_Expander_IsExpanded(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            that.IsExpanded = (global::System.Boolean)Value;
+        }
+        private object get_53_Expander_ExpandDirection(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            return that.ExpandDirection;
+        }
+        private void set_53_Expander_ExpandDirection(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            that.ExpandDirection = (global::Microsoft.UI.Xaml.Controls.ExpandDirection)Value;
+        }
+        private object get_54_Expander_HeaderTemplate(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            return that.HeaderTemplate;
+        }
+        private void set_54_Expander_HeaderTemplate(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            that.HeaderTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_55_Expander_HeaderTemplateSelector(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            return that.HeaderTemplateSelector;
+        }
+        private void set_55_Expander_HeaderTemplateSelector(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            that.HeaderTemplateSelector = (global::Windows.UI.Xaml.Controls.DataTemplateSelector)Value;
+        }
+        private object get_56_Expander_TemplateSettings(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            return that.TemplateSettings;
+        }
+        private object get_57_RadioButtons_Items(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
+            return that.Items;
+        }
+        private object get_58_RadioButtons_Header(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
+            return that.Header;
+        }
+        private void set_58_RadioButtons_Header(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
+            that.Header = (global::System.Object)Value;
+        }
+        private object get_59_RadioButtons_HeaderTemplate(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
+            return that.HeaderTemplate;
+        }
+        private void set_59_RadioButtons_HeaderTemplate(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
+            that.HeaderTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_60_RadioButtons_ItemTemplate(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
+            return that.ItemTemplate;
+        }
+        private void set_60_RadioButtons_ItemTemplate(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
+            that.ItemTemplate = (global::System.Object)Value;
+        }
+        private object get_61_RadioButtons_ItemsSource(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
+            return that.ItemsSource;
+        }
+        private void set_61_RadioButtons_ItemsSource(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
+            that.ItemsSource = (global::System.Object)Value;
+        }
+        private object get_62_RadioButtons_MaxColumns(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
+            return that.MaxColumns;
+        }
+        private void set_62_RadioButtons_MaxColumns(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
+            that.MaxColumns = (global::System.Int32)Value;
+        }
+        private object get_63_RadioButtons_SelectedIndex(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
+            return that.SelectedIndex;
+        }
+        private void set_63_RadioButtons_SelectedIndex(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
+            that.SelectedIndex = (global::System.Int32)Value;
+        }
+        private object get_64_RadioButtons_SelectedItem(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
+            return that.SelectedItem;
+        }
+        private void set_64_RadioButtons_SelectedItem(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
+            that.SelectedItem = (global::System.Object)Value;
+        }
+        private object get_65_IconSource_Foreground(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.IconSource)instance;
             return that.Foreground;
         }
-        private void set_51_IconSource_Foreground(object instance, object Value)
+        private void set_65_IconSource_Foreground(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.IconSource)instance;
             that.Foreground = (global::Windows.UI.Xaml.Media.Brush)Value;
         }
-        private object get_52_TreeViewNode_Children(object instance)
+        private object get_66_TreeViewNode_Children(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Children;
         }
-        private object get_53_TreeViewNode_Content(object instance)
+        private object get_67_TreeViewNode_Content(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Content;
         }
-        private void set_53_TreeViewNode_Content(object instance, object Value)
+        private void set_67_TreeViewNode_Content(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.Content = (global::System.Object)Value;
         }
-        private object get_54_TreeViewNode_Depth(object instance)
+        private object get_68_TreeViewNode_Depth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Depth;
         }
-        private object get_55_TreeViewNode_HasChildren(object instance)
+        private object get_69_TreeViewNode_HasChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasChildren;
         }
-        private object get_56_TreeViewNode_HasUnrealizedChildren(object instance)
+        private object get_70_TreeViewNode_HasUnrealizedChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasUnrealizedChildren;
         }
-        private void set_56_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
+        private void set_70_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.HasUnrealizedChildren = (global::System.Boolean)Value;
         }
-        private object get_57_TreeViewNode_IsExpanded(object instance)
+        private object get_71_TreeViewNode_IsExpanded(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.IsExpanded;
         }
-        private void set_57_TreeViewNode_IsExpanded(object instance, object Value)
+        private void set_71_TreeViewNode_IsExpanded(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.IsExpanded = (global::System.Boolean)Value;
         }
-        private object get_58_TreeViewNode_Parent(object instance)
+        private object get_72_TreeViewNode_Parent(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Parent;
@@ -1657,57 +1837,154 @@ namespace EFPView.EFPView_XamlTypeInfo
                 xamlMember.Getter = get_50_NavigationViewItemBase_IsSelected;
                 xamlMember.Setter = set_50_NavigationViewItemBase_IsSelected;
                 break;
+            case "Microsoft.UI.Xaml.Controls.Expander.Header":
+                userType = (global::EFPView.EFPView_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Expander");
+                xamlMember = new global::EFPView.EFPView_XamlTypeInfo.XamlMember(this, "Header", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_51_Expander_Header;
+                xamlMember.Setter = set_51_Expander_Header;
+                break;
+            case "Microsoft.UI.Xaml.Controls.Expander.IsExpanded":
+                userType = (global::EFPView.EFPView_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Expander");
+                xamlMember = new global::EFPView.EFPView_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_52_Expander_IsExpanded;
+                xamlMember.Setter = set_52_Expander_IsExpanded;
+                break;
+            case "Microsoft.UI.Xaml.Controls.Expander.ExpandDirection":
+                userType = (global::EFPView.EFPView_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Expander");
+                xamlMember = new global::EFPView.EFPView_XamlTypeInfo.XamlMember(this, "ExpandDirection", "Microsoft.UI.Xaml.Controls.ExpandDirection");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_53_Expander_ExpandDirection;
+                xamlMember.Setter = set_53_Expander_ExpandDirection;
+                break;
+            case "Microsoft.UI.Xaml.Controls.Expander.HeaderTemplate":
+                userType = (global::EFPView.EFPView_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Expander");
+                xamlMember = new global::EFPView.EFPView_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_54_Expander_HeaderTemplate;
+                xamlMember.Setter = set_54_Expander_HeaderTemplate;
+                break;
+            case "Microsoft.UI.Xaml.Controls.Expander.HeaderTemplateSelector":
+                userType = (global::EFPView.EFPView_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Expander");
+                xamlMember = new global::EFPView.EFPView_XamlTypeInfo.XamlMember(this, "HeaderTemplateSelector", "Windows.UI.Xaml.Controls.DataTemplateSelector");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_55_Expander_HeaderTemplateSelector;
+                xamlMember.Setter = set_55_Expander_HeaderTemplateSelector;
+                break;
+            case "Microsoft.UI.Xaml.Controls.Expander.TemplateSettings":
+                userType = (global::EFPView.EFPView_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Expander");
+                xamlMember = new global::EFPView.EFPView_XamlTypeInfo.XamlMember(this, "TemplateSettings", "Microsoft.UI.Xaml.Controls.ExpanderTemplateSettings");
+                xamlMember.Getter = get_56_Expander_TemplateSettings;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.UI.Xaml.Controls.RadioButtons.Items":
+                userType = (global::EFPView.EFPView_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RadioButtons");
+                xamlMember = new global::EFPView.EFPView_XamlTypeInfo.XamlMember(this, "Items", "System.Collections.Generic.IList`1<Object>");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_57_RadioButtons_Items;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.UI.Xaml.Controls.RadioButtons.Header":
+                userType = (global::EFPView.EFPView_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RadioButtons");
+                xamlMember = new global::EFPView.EFPView_XamlTypeInfo.XamlMember(this, "Header", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_58_RadioButtons_Header;
+                xamlMember.Setter = set_58_RadioButtons_Header;
+                break;
+            case "Microsoft.UI.Xaml.Controls.RadioButtons.HeaderTemplate":
+                userType = (global::EFPView.EFPView_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RadioButtons");
+                xamlMember = new global::EFPView.EFPView_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_59_RadioButtons_HeaderTemplate;
+                xamlMember.Setter = set_59_RadioButtons_HeaderTemplate;
+                break;
+            case "Microsoft.UI.Xaml.Controls.RadioButtons.ItemTemplate":
+                userType = (global::EFPView.EFPView_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RadioButtons");
+                xamlMember = new global::EFPView.EFPView_XamlTypeInfo.XamlMember(this, "ItemTemplate", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_60_RadioButtons_ItemTemplate;
+                xamlMember.Setter = set_60_RadioButtons_ItemTemplate;
+                break;
+            case "Microsoft.UI.Xaml.Controls.RadioButtons.ItemsSource":
+                userType = (global::EFPView.EFPView_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RadioButtons");
+                xamlMember = new global::EFPView.EFPView_XamlTypeInfo.XamlMember(this, "ItemsSource", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_61_RadioButtons_ItemsSource;
+                xamlMember.Setter = set_61_RadioButtons_ItemsSource;
+                break;
+            case "Microsoft.UI.Xaml.Controls.RadioButtons.MaxColumns":
+                userType = (global::EFPView.EFPView_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RadioButtons");
+                xamlMember = new global::EFPView.EFPView_XamlTypeInfo.XamlMember(this, "MaxColumns", "Int32");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_62_RadioButtons_MaxColumns;
+                xamlMember.Setter = set_62_RadioButtons_MaxColumns;
+                break;
+            case "Microsoft.UI.Xaml.Controls.RadioButtons.SelectedIndex":
+                userType = (global::EFPView.EFPView_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RadioButtons");
+                xamlMember = new global::EFPView.EFPView_XamlTypeInfo.XamlMember(this, "SelectedIndex", "Int32");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_63_RadioButtons_SelectedIndex;
+                xamlMember.Setter = set_63_RadioButtons_SelectedIndex;
+                break;
+            case "Microsoft.UI.Xaml.Controls.RadioButtons.SelectedItem":
+                userType = (global::EFPView.EFPView_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RadioButtons");
+                xamlMember = new global::EFPView.EFPView_XamlTypeInfo.XamlMember(this, "SelectedItem", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_64_RadioButtons_SelectedItem;
+                xamlMember.Setter = set_64_RadioButtons_SelectedItem;
+                break;
             case "Microsoft.UI.Xaml.Controls.IconSource.Foreground":
                 userType = (global::EFPView.EFPView_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.IconSource");
                 xamlMember = new global::EFPView.EFPView_XamlTypeInfo.XamlMember(this, "Foreground", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_51_IconSource_Foreground;
-                xamlMember.Setter = set_51_IconSource_Foreground;
+                xamlMember.Getter = get_65_IconSource_Foreground;
+                xamlMember.Setter = set_65_IconSource_Foreground;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
                 userType = (global::EFPView.EFPView_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::EFPView.EFPView_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
-                xamlMember.Getter = get_52_TreeViewNode_Children;
+                xamlMember.Getter = get_66_TreeViewNode_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Content":
                 userType = (global::EFPView.EFPView_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::EFPView.EFPView_XamlTypeInfo.XamlMember(this, "Content", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_53_TreeViewNode_Content;
-                xamlMember.Setter = set_53_TreeViewNode_Content;
+                xamlMember.Getter = get_67_TreeViewNode_Content;
+                xamlMember.Setter = set_67_TreeViewNode_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Depth":
                 userType = (global::EFPView.EFPView_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::EFPView.EFPView_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_54_TreeViewNode_Depth;
+                xamlMember.Getter = get_68_TreeViewNode_Depth;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren":
                 userType = (global::EFPView.EFPView_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::EFPView.EFPView_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_55_TreeViewNode_HasChildren;
+                xamlMember.Getter = get_69_TreeViewNode_HasChildren;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren":
                 userType = (global::EFPView.EFPView_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::EFPView.EFPView_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
-                xamlMember.Getter = get_56_TreeViewNode_HasUnrealizedChildren;
-                xamlMember.Setter = set_56_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Getter = get_70_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Setter = set_70_TreeViewNode_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded":
                 userType = (global::EFPView.EFPView_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::EFPView.EFPView_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_57_TreeViewNode_IsExpanded;
-                xamlMember.Setter = set_57_TreeViewNode_IsExpanded;
+                xamlMember.Getter = get_71_TreeViewNode_IsExpanded;
+                xamlMember.Setter = set_71_TreeViewNode_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Parent":
                 userType = (global::EFPView.EFPView_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::EFPView.EFPView_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember.Getter = get_58_TreeViewNode_Parent;
+                xamlMember.Getter = get_72_TreeViewNode_Parent;
                 xamlMember.SetIsReadOnly();
                 break;
             }

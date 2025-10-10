@@ -9,17 +9,29 @@
     xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
     muxc:BackdropMaterial.ApplyToRootOrPageBackground="True">
 
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-        <Grid Grid.Row="0">
-            <TextBlock Text="关于" Margin="12" FontSize="18"/>
+    <ScrollViewer
+        x:Name="PageScroll"
+        VerticalScrollBarVisibility="Auto"
+        VerticalScrollMode="Enabled"
+        HorizontalScrollBarVisibility="Disabled"
+        ZoomMode="Disabled"
+        Padding="0">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <TextBlock Text="关于" Margin="24" FontSize="18"/>
+            </Grid>
+            <Grid Grid.Row="1">
+                <TextBlock Text="UI基于WInUI2.8 Fluent设计" Margin="24,-12,0,0" FontSize="12"/>
+            </Grid>
+            <Grid Grid.Row="2">
+                <Button x:Name="Btn_1" Content="一个示例按钮" Margin="24"/>
+            </Grid>
         </Grid>
-        <Grid Grid.Row="1">
-            <TextBlock Text="UI基于WInUI2.8 Fluent设计" Margin="12,0,0,0" FontSize="12"/>
-        </Grid>
-    </Grid>
+    </ScrollViewer>
 </Page>

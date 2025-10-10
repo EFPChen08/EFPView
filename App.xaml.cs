@@ -1,4 +1,5 @@
 ﻿using EFPView;
+using EFPView.Pages;
 using System;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
@@ -9,14 +10,24 @@ using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
+using Windows.Foundation;
 
 namespace EFPView
 {
     /// <summary>
     /// Provides application-specific behavior to supplement the default <see cref="Application"/> class.
     /// </summary>
+    /// 
     public sealed partial class App : Application
     {
+        public static new App Current => (App)Application.Current;
+
+        //public MainPage MainPage =>
+        //    (Window.Current.Content as Frame)?.Content as MainPage;
+        
+        public static MainPage MainPage { get; private set; }
+        public static SettingsPage SettingsPage { get; private set; }
+
         UISettings _uiSettings;
         CoreDispatcher _uiDispatcher;
 
@@ -32,28 +43,18 @@ namespace EFPView
             return bg == Colors.Black;
         }
 
+        public static bool IsAppDarkTheme()
+        {
+            if (Window.Current?.Content is FrameworkElement root)
+            {
+                return root.ActualTheme == ElementTheme.Dark;
+            }
+            return false; // 没拿到根元素时给个默认
+        }
+
         void ApplyThemeAwareCaptionButtons()
         {
-            bool dark = IsSystemDark();
-            var tb = ApplicationView.GetForCurrentView().TitleBar;
-
-            tb.ButtonBackgroundColor = Colors.Transparent;
-            tb.ButtonInactiveBackgroundColor = Colors.Transparent;
-
-            if (dark)
-            {
-                tb.ButtonForegroundColor = Colors.White;
-                tb.ButtonInactiveForegroundColor = Color.FromArgb(160, 255, 255, 255);
-                tb.ButtonHoverBackgroundColor = Color.FromArgb(24, 255, 255, 255); // 轻微提亮
-                tb.ButtonPressedBackgroundColor = Color.FromArgb(48, 255, 255, 255);
-            }
-            else
-            {
-                tb.ButtonForegroundColor = Colors.Black;
-                tb.ButtonInactiveForegroundColor = Color.FromArgb(160, 0, 0, 0);
-                tb.ButtonHoverBackgroundColor = Color.FromArgb(24, 0, 0, 0);       // 轻微压暗
-                tb.ButtonPressedBackgroundColor = Color.FromArgb(48, 0, 0, 0);
-            }
+            ThemeHelper.UpdateTitleBar(IsAppDarkTheme() ? AppTheme.Dark : AppTheme.Light);
         }
 
         async void UiSettings_ColorValuesChanged(UISettings sender, object args)
@@ -70,43 +71,48 @@ namespace EFPView
         /// <inheritdoc/>
         protected override void OnLaunched(LaunchActivatedEventArgs e)
         {
-            // Do not repeat app initialization when the Window already has content,
-            // just ensure that the window is active.
-            if (Window.Current.Content is not Frame rootFrame)
+            ApplicationView.PreferredLaunchViewSize = new Size(1280, 800);
+            ApplicationView.PreferredLaunchWindowingMode = ApplicationViewWindowingMode.PreferredLaunchViewSize;
+
+            var frame = Window.Current.Content as Frame;
+            if (frame == null)
             {
-                // Create a Frame to act as the navigation context and navigate to the first page
-                rootFrame = new Frame();
-                rootFrame.NavigationFailed += OnNavigationFailed;
-
-                if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
-                {
-                    // TODO: Load state from previously suspended application
-                }
-
-                // Place the frame in the current Window
-                Window.Current.Content = rootFrame;
+                frame = new Frame();
+                Window.Current.Content = frame;
             }
 
+            frame.Navigated += Frame_Navigated;
+            if (frame.Content == null)
+                frame.Navigate(typeof(MainPage), e.Arguments);
 
-            _uiDispatcher = Window.Current.Dispatcher;
-
-            if (e.PrelaunchActivated == false)
-            {
-                if (rootFrame.Content == null)
-                {
-                    // When the navigation stack isn't restored navigate to the first page, configuring
-                    // the new page by passing required information as a navigation parameter.
-                    rootFrame.Navigate(typeof(MainPage), e.Arguments);
-                }
-
-                // Ensure the current window is active
-                Window.Current.Activate();
-            }
+            Window.Current.Activate();
 
             _uiSettings = new UISettings();
+
             ApplyThemeAwareCaptionButtons();
+            UpdateCaptionButtonsByAppTheme();
+
+            if (Window.Current.Content is FrameworkElement root)
+            {
+                root.ActualThemeChanged += (_, __) => UpdateCaptionButtonsByAppTheme();
+            }
 
             _uiSettings.ColorValuesChanged += UiSettings_ColorValuesChanged;
+        }
+
+        void UpdateCaptionButtonsByAppTheme()
+        {
+            ThemeHelper.FullUpdateTitleBar(IsAppDarkTheme() ? AppTheme.Dark : AppTheme.Light);
+        }
+
+
+        private void Frame_Navigated(object sender, NavigationEventArgs e)
+        {
+            if (e.SourcePageType == typeof(MainPage))
+            {
+                MainPage = ((Frame)sender).Content as MainPage;
+                // ((Frame)sender).Navigated -= Frame_Navigated;
+            }
         }
 
         /// <summary>
